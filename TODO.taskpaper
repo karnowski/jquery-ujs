@@ -1,0 +1,14 @@
+Testing rails.js:
+- add confirmation message specs for inputs, not just links
+- add tests around custom "confirm" event handlers for links & inputs
+
+Jasmine:
+- why is it ignoring an empty value for src_dir in the jasmine.yml?
+	- we'd like to have a vendor/jquery.js file and cannot
+	
+Rails:
+- go through ActionPack helpers to find unobtrusive JavaScript hooks
+	- form_helper
+	- form_tag_helper
+	- url_helper
+	- any other helpers?
